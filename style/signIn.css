@@ -1,0 +1,12 @@
+
+.conteudo {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+image.imageLogin {
+    position: relative;
+    right: 0px;
+}
