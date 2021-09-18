@@ -1,12 +1,56 @@
 
-.conteudo {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+/* Resetando as margens da pagina (primeira coisa a se fazer) */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-image.imageLogin {
-    position: relative;
-    right: 0px;
+/* Garantido que a pagina ocupe a tela toda */
+body, html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+    width: 100vw; /* pegando o tamanho total da seu pai (body) */
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: "l r"; /* definindo as areas e colocando um nome */
+    grid-template-columns: 1fr 1fr; 
+}
+
+#imageLogo {
+    width: 30vh;
+}
+
+#lateralImage {
+    height: 100vh; /* imagem se ajusta com a altura da tela*/
+    float: right;
+}
+
+.nav-left {
+    background-color: red;
+    grid-area: l;
+
+}
+
+.nav-right {
+    background-color: chartreuse;
+    grid-area: r;
+}
+
+/* Alterando a tela de acordo com o tamanho */
+@media only screen and (max-width: 820px) {
+
+    /* agora a pagina será baseada só na area esquerda */
+    .container {
+        grid-template-areas: "l";
+        grid-template-columns: 1fr;
+    }
+    /* fazendo que a area da direita suma  */
+    .nav-right {
+        display: none;
+    }
 }
