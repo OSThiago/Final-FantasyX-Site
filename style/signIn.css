@@ -36,6 +36,8 @@ body, html {
 .nav-left {
     background-color: rgb(255, 255, 255);
     grid-area: l;
+
+    /*centralizando o conteúdo*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -51,9 +53,10 @@ body, html {
 
 .box-formulario{
     background-color: #ffff;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     padding: 20px;
     max-width: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 
@@ -83,7 +86,7 @@ body, html {
 
 /* animação da label subindo  */
 .inputUser:focus ~ .inputLabel,
-.inputUser:valid ~ .inputLabel{
+.inputUser:valid ~ .inputLabel{ /* faz que a o texto persista em cima*/
     top: -20px;
     font-size: 15px;
     color: blueviolet;
@@ -92,11 +95,26 @@ body, html {
 .loginButton {
     padding: 10px;
     width: 100%;
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, rgb(36, 84, 216), rgb(236, 107, 236));
     color: white;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
 
+}
+
+.loginButton:hover {
+    background-image: linear-gradient(to right, rgb(59, 107, 240), rgb(240, 119, 240));
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a:link {
+    text-decoration: none;
+    
 }
 
 /* Alterando a tela de acordo com o tamanho */
