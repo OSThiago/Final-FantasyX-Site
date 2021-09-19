@@ -33,14 +33,16 @@ body, html {
     float: right;
 }
 
+/*Pintar metade da tela (Esquerda)*/
 .nav-left {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     grid-area: l;
 
 }
 
+/*Pintar metade da tela (Direita)*/
 .nav-right {
-    background-color: chartreuse;
+    background-color: rgb(14, 14, 14);
     grid-area: r;
 }
 
