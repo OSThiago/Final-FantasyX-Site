@@ -81,7 +81,8 @@ body, html {
 }
 
 /* animação da label subindo  */
-.inputUser:focus ~ .inputLabel{
+.inputUser:focus ~ .inputLabel,
+.inputUser:valid ~ .inputLabel{
     top: -20px;
     font-size: 15px;
     color: blueviolet;
