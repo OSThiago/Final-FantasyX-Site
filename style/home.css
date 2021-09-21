@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: cornsilk;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    z-index: 99;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+#backgroundHome{
+    width: 100%;
+    z-index: -10;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_historia{
+    
+}
+
+.conteudo_historia{
+    width: 70%;
+}

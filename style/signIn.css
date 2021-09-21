@@ -52,7 +52,7 @@ body, html {
 }
 
 .box-formulario{
-    background-color: #ffff;
+    /*background-color: rgb(255, 255, 255);*/
     /*border: 2px solid black;*/
     padding: 20px;
     max-width: 300px;
@@ -75,7 +75,7 @@ body, html {
 }
 
 .inputLabel {
-    color: dodgerblue;
+    color: rgb(36, 84, 216);
     font-size: 20px;
     position: absolute;
     top: 0px;
