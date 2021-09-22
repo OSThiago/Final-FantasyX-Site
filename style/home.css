@@ -36,3 +36,33 @@ section{
 .conteudo_historia{
     width: 70%;
 }
+
+
+.container_personagens{
+    background-color: crimson;
+}
+
+.container_aeons{
+    background-color: lime;
+}
+
+.flex_container{
+    background-color: deepskyblue;
+    width: 70%;
+}
+
+.cardsSection{
+    background-color: gold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 200px;
+}
+
+.card{
+    padding: 5px;
+}
