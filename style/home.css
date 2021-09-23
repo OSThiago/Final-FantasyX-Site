@@ -26,7 +26,7 @@ nav li{
     float: left;
     list-style: none;
     margin-left: 20px;
-    color: floralwhite;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -53,7 +53,9 @@ section{
 }
 
 .container_historia{
-    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: darkgray;
 }
 
 .conteudo_historia{
@@ -65,21 +67,21 @@ section{
 }
 
 .container_personagens{
-    /*background-color: crimson;*/
+    background-color: crimson;
     
 }
 
 .container_aeons{
-    /*background-color: lime;*/
+    background-color: lime;
 }
 
 .flex_container{
-    /*background-color: deepskyblue;*/
+    background-color: deepskyblue;
     width: 70%;
 }
 
 .cardsSection{
-    /*background-color: gold;*/
+    background-color: rgb(255, 217, 0);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -93,4 +95,15 @@ section{
 
 .card{
     padding: 5px;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-style: italic;
 }
