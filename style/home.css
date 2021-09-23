@@ -3,18 +3,33 @@
     padding: 0px;
 }
 
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border: 0;
+    height: 1px;
+    background-color:rgb(208, 208, 208);
+}
+
 nav{
-    background-color: cornsilk;
-    padding: 20px;
+    
+    background-color: #0E0E0E;
+    opacity: 0.8;
+    padding: 40px;
     display: flex;
     justify-content: end;
     z-index: 99;
 }
 
 nav li{
+    background-color: burlywood;
+    padding: 10px;
     float: left;
     list-style: none;
     margin-left: 20px;
+    color: floralwhite;
+
 }
 
 #backgroundHome{
@@ -22,11 +37,16 @@ nav li{
     z-index: -10;
 }
 
+.home{
+    margin-top: 0;
+}
+
 section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .container_historia{
@@ -37,30 +57,35 @@ section{
     width: 70%;
 }
 
+.home img{
+    width: 100%;
+}
 
 .container_personagens{
-    background-color: crimson;
+    /*background-color: crimson;*/
+    
 }
 
 .container_aeons{
-    background-color: lime;
+    /*background-color: lime;*/
 }
 
 .flex_container{
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
     width: 70%;
 }
 
 .cardsSection{
-    background-color: gold;
+    /*background-color: gold;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .card img{
-    width: 200px;
+    width: 250px;
 }
 
 .card{
