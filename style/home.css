@@ -13,23 +13,26 @@ hr{
 }
 
 nav{
-    
+
     background-color: #0E0E0E;
-    opacity: 0.8;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: end;
     z-index: 99;
 }
 
 nav li{
-    background-color: burlywood;
     padding: 10px;
     float: left;
     list-style: none;
     margin-left: 20px;
     color: floralwhite;
 
+}
+
+nav li:hover{
+    background-color: floralwhite;
+    color: #0E0E0E;
 }
 
 #backgroundHome{
