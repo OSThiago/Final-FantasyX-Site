@@ -28,8 +28,10 @@ body, html {
 }
 
 #lateralImage {
-    height: 100vh; /* imagem se ajusta com a altura da tela*/
-    float: right;
+    /*height: 100vh; /* imagem se ajusta com a altura da tela*/
+    float: left;
+    width: 730px;
+    height: 1028px;
 }
 
 /*Pintar metade da tela (Esquerda)*/
@@ -62,6 +64,11 @@ body, html {
 
 .inputBox {
     position: relative;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
 }
 
 .inputUser {
@@ -72,6 +79,12 @@ body, html {
     font-size: 20px;
     width: 100%;
     /*max-width: 300px;*/
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .inputLabel {
@@ -101,6 +114,12 @@ body, html {
     border-radius: 10px;
     border: none;
 
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+
 }
 
 .loginButton:hover {
@@ -129,4 +148,11 @@ a:link {
     .nav-right {
         display: none;
     }
+}
+
+a{
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    padding-left: 240px;
 }
