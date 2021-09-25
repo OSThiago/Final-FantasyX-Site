@@ -1,6 +1,11 @@
+/* ------------ CONGIGURACOES GERAIS ------------*/
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 hr{
@@ -12,12 +17,33 @@ hr{
     background-color:rgb(208, 208, 208);
 }
 
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* ------------ NAVIGATION BAR ------------*/
+
+
 nav{
     background-color: #0E0E0E;
     padding: 20px;
+    font-size: 18px;
+
     display: flex;
-    justify-content: end;
-    z-index: 99;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.final_fantasyx{
+    color: white;
 }
 
 nav li{
@@ -33,14 +59,52 @@ nav li:hover{
     color: #0E0E0E;
 }
 
-#backgroundHome{
-    width: 100%;
-    z-index: -10;
+/* ------------ Entrada da pagina ------------*/
+
+.home p, h2{
+    color: white;
 }
 
 .home{
+    background-color: #1F1F1F;
     margin-top: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
 }
+
+.home_conteudo{
+    /* background-color: teal; */
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_conteudo_texto{
+    /* background-color: turquoise; */
+    width: 60%;
+    padding: 20px;
+    height: 60vh;
+}
+
+.home_image{
+    /*background-color: tomato;*/
+    height: 100vh;
+    /*width: 50%;*/
+}
+.home_image img{
+    max-width: 100%;
+}
+
+.video_inicial {
+    /* Tentar fazer que o vide se ajuste também */
+}
+
+/* ------------ HISTORIA ------------*/
 
 section{
     display: flex;
@@ -60,9 +124,19 @@ section{
     width: 70%;
 }
 
-.home img{
-    width: 100%;
+.container_historia iframe{
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    border-radius: 0px;
 }
+
+.container_historia p{
+    float:right;
+}
+
+
+/* ------------ CARDS ------------*/
 
 .container_personagens{
     background-color: crimson;
@@ -95,24 +169,4 @@ section{
     padding: 5px;
 }
 
-h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    font-style: italic;
-}
-
-iframe{
-    float: left;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    border-radius: 50px;
-}
-
-p{
-    float:right;
-}
