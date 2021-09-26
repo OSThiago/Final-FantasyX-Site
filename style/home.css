@@ -162,6 +162,7 @@ section{
     width: 70%;
 }
 
+
 .cardsSection{
     /* background-color: rgb(255, 217, 0); */
     display: flex;
@@ -169,8 +170,10 @@ section{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+
 }
 
+/* ---- CARD --- */
 .card img{
     width: 250px;
 }
