@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,38 @@
     <title>SignIn</title>
     <link rel="stylesheet" href="style/signIn.css">
 </head>
-<body>
-    
-    <div class="conteudo">
-        <div class="register">
-            <img src="/images/logo.png" alt="logo">
-            <div class="inpuxbox">
-                <input type="email" name="email" id="email" class="inputUser" required>
-                <label for="email" class="imputLabel">e-mail</label>
-            </div>
-            <div class="inpuxbox">
-                <input type="text" name="senha" id="senha" class="inputUser" required>
-                <label for="senha" class="imputLabel">senha</label>
-            </div>
 
-            <button type="button" class="loginButton">Login</button>
-            <a href="signIn.html">sigin</a>
+<body>
+
+    <div class="container">
+        <div class="nav-left">
+            <div class="box-formulario">
+                <img src="imagens/logoBranco.jpeg" alt="logo" id="imageLogo">
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="inputLabel">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="inputLabel">Password</label>
+                </div>
+                <br><br>
+                <form action="index.html">
+                    <input type="submit" value="LOGIN" class="loginButton">
+                </form>
+
+                <br>
+                <a href="SignUp.html" id="signUp">Sign Up</a>
+            </div>
         </div>
 
-        <div class="imageLogin">
-            <img src="/images/lateralImage.png" alt="lateralImage">
+        <div class="nav-right">
+            <img src="imagens/lateralImage.png" alt="lateralImage" id="lateralImage">
         </div>
 
     </div>
 
 </body>
+
 </html>
