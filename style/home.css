@@ -57,6 +57,16 @@ nav li{
 nav li:hover{
     background-color: floralwhite;
     color: #0E0E0E;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
 }
 
 /* ------------ Entrada da pagina ------------*/
