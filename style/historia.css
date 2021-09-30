@@ -49,22 +49,18 @@ nav li{
     float: left;
     list-style: none;
     margin-left: 20px;
-    color: rgb(255, 255, 255);
-}
-
-nav li:hover{
-    background-color: floralwhite;
-    color: #0E0E0E;
-
 }
 
 nav a{
     text-decoration: none;
     color: white;
+    background-color: #0E0E0E;
+    padding: 10px;
 }
 
 nav a:hover{
     color: black;
+    background-color: white;
 }
 
 /* CONTEUDO */
