@@ -60,6 +60,10 @@ body, html {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+#dataNascimento{
+    font-size: 20px;
+    color: rgb(36, 84, 216);
+}
 
 .inputBox {
     position: relative;
