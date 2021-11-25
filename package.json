@@ -1,7 +1,6 @@
 {
   "name": "final-fantasyx-site",
   "version": "1.0.0",
-  "description": "",
   "main": "site.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/OSThiago/Final-FantasyX-Site/issues"
   },
-  "homepage": "https://github.com/OSThiago/Final-FantasyX-Site#readme"
+  "homepage": "https://github.com/OSThiago/Final-FantasyX-Site#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "keywords": [
+    "postgres"
+  ],
+  "devDependencies": {},
+  "description": ""
 }
