@@ -1,16 +1,9 @@
-const User = require('pg').User
-const usuario = new User({
-    user: "postgres",
-    password: "postgres",
-    host: "127.0.0.1",
-    port: 5432,
-    database: "teste"
+var mysql = require('mysql')
+var connection = mysql.createConnection({
+  host: '127.0.0.1',
+  user: 'root',
+  password: '',
+  database: 'teste'
 })
 
-usuario.connect()
-usuario.query("select * from teste")
-.then(results => {
-    const resultado = results.rows
-    console.log(resultado)
-})
-.finally(() => usuario.end())
+connection.connect()
